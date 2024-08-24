@@ -1,0 +1,21 @@
+# Environment Paths
+# Python
+export PATH="$PATH:/Users/onkar/Library/Python/3.9/bin"
+
+# Node 
+export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+
+# Android
+export ANDROID_HOME="/Users/onkar/Library/Android/sdk"
+export PATH="/Users/onkar/Library/Android/sdk/platform-tools:${PATH}"
+
+# Java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# Golang
+export GOPATH=$HOME/go
+export GOROOT="/opt/homebrew/opt/go@1.22/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+# export PATH="/opt/homebrew/opt/go@1.22/bin:$PATH"
+
