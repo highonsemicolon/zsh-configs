@@ -10,4 +10,5 @@ powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 
- 
+extensions
+brew install zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting 
